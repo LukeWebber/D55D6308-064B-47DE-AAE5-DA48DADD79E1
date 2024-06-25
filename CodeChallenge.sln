@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCode", "CommonCode\CommonCode.csproj", "{3D1F10D4-8E31-4A76-907B-34B7A9233B0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonCode", "CommonCode\CommonCode.csproj", "{3D1F10D4-8E31-4A76-907B-34B7A9233B0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCodeTests", "CommonCodeTests\CommonCodeTests.csproj", "{9961F023-B476-4756-97C2-12268D223230}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonCodeTests", "CommonCodeTests\CommonCodeTests.csproj", "{9961F023-B476-4756-97C2-12268D223230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ED346882-691A-44AA-B44A-11487E329B3B}"
+	ProjectSection(SolutionItems) = preProject
+		code-test.md = code-test.md
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
